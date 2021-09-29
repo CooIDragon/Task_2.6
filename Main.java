@@ -17,10 +17,10 @@ public class Main {
         if (b * b - 4 * a * c < 0) {
             System.out.println("Действительных корней нет");
         }
-        if (b * b - 4 * a * c == 0) {
+        else if (b * b - 4 * a * c == 0) {
             System.out.println("Корень данного уравнения: " + countX1(a, b, c));
         }
-        if (b * b - 4 * a * c > 0) {
+        else if (b * b - 4 * a * c > 0) {
             System.out.println("Корни данного уравнения: " + countX1(a, b, c) + " и " + countX2(a, b, c));
         }
     }
